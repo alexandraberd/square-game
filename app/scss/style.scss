@@ -1,0 +1,41 @@
+@import 'reset';
+@import 'global';
+
+.game {
+    background-color: #ffff;
+    padding: 30px 60px;
+    border-radius: 24px;
+    &__wrapper {
+        position: relative;
+        margin: 25px 0;
+    }
+    &__field {
+        background-color: #b9cec7;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #e5e5e5;
+    }
+    &__field-startBtn {
+        position: absolute;
+        padding: 10px 30px;
+        outline: none;
+        background-color: #7fffd4;
+        border: 1px solid #207257;
+        border-radius: 29px;
+        top: calc(50% - 25px);
+        left: calc(50% - 45px);
+    }
+    &__field-startBtn:hover {
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+    &__timer-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__timer-input {
+        display: block;
+        margin: 0 auto;
+    }
+}
