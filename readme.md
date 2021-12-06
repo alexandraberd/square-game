@@ -1,0 +1,1 @@
+# Simple random square game
